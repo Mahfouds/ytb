@@ -13,7 +13,7 @@ console.log("success")
 // mongodb+srv://<username>:Ss13126%40%23@cluster0.9czxwgu.mongodb.net/?retryWrites=true&w=majority
 // mongodb://<username>:<password>@ac-6uktlkj-shard-00-00.9czxwgu.mongodb.net:27017,ac-6uktlkj-shard-00-01.9czxwgu.mongodb.net:27017,ac-6uktlkj-shard-00-02.9czxwgu.mongodb.net:27017/?ssl=true&replicaSet=atlas-9rvllm-shard-0&authSource=admin&retryWrites=true&w=majority
 
-app.get("/hello",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("hello to you too")
 })
 app.post("/hello",(req,res)=>{
